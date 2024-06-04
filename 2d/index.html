@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Distancia en R3 con Gráfica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div>
+        <h1>Calculadora de Distancia en R3 con Gráfica</h1>
+        <div id="threeContainer"></div>
+        <form id="distanceForm">
+            <label for="x1">X1:</label>
+            <input type="number" id="x1" required>
+            <label for="y1">Y1:</label>
+            <input type="number" id="y1" required>
+            <label for="z1">Z1:</label>
+            <input type="number" id="z1" required>
+            <br>
+            <label for="x2">X2:</label>
+            <input type="number" id="x2" required>
+            <label for="y2">Y2:</label>
+            <input type="number" id="y2" required>
+            <label for="z2">Z2:</label>
+            <input type="number" id="z2" required>
+            <br>
+            <button type="button" onclick="calculateAndRenderDistance()">Calcular Distancia</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>

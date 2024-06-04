@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+}
+
+#threeContainer {
+    width: 800px;
+    height: 600px;
+    margin: 20px 0;
+}
+
+#distanceForm {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+label {
+    margin: 0 5px;
+}
+
+input {
+    margin: 0 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+}
